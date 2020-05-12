@@ -257,9 +257,7 @@ h1 {
   content: "✖"; }
 
 #check:checked ~ .header {
-  background: #0075ff;
-  -webkit-transition: 1s;
-  transition: 1s; }
+  background: #0075ff; }
 
 #check:checked ~ .header__text {
   left: -500px; }
