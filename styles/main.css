@@ -208,6 +208,7 @@ h1 {
   .nav {
     display: none; }
   .header__call {
+    display: none;
     position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -234,7 +235,10 @@ h1 {
     font-size: 46px;
     line-height: 40px;
     margin-top: -65px;
-    letter-spacing: -1.5px; }
+    letter-spacing: -1.5px;
+    left: 50px;
+    -webkit-transition: 1s left;
+    transition: 1s left; }
   .header__text::before {
     content: " ";
     position: absolute;
@@ -290,15 +294,15 @@ h1 {
   content: "✖"; }
 
 #check:checked ~ .header {
-  background: #0075ff; }
+  background: #0075ff;
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 #check:checked ~ .header__text {
-  visibility: hidden; }
+  left: -500px; }
 
 #check:checked ~ .nav-mini {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  left: 0; }
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -436,6 +440,7 @@ h1 {
   .nav {
     display: none; }
   .header__call {
+    display: none;
     position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -462,7 +467,10 @@ h1 {
     font-size: 46px;
     line-height: 40px;
     margin-top: -65px;
-    letter-spacing: -1.5px; }
+    letter-spacing: -1.5px;
+    left: 50px;
+    -webkit-transition: 1s left;
+    transition: 1s left; }
   .header__text::before {
     content: " ";
     position: absolute;
@@ -490,7 +498,10 @@ h1 {
       -ms-flex-direction: column;
           flex-direction: column;
   top: 120px;
-  display: none; }
+  display: flex;
+  left: -400px;
+  -webkit-transition: 1s left;
+  transition: 1s left; }
   .nav-mini__item {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
