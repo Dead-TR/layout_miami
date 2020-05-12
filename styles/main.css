@@ -109,12 +109,17 @@ h1 {
     color: white;
     margin-top: -65px;
     letter-spacing: -1.5px; }
+    .header__text-box {
+      position: relative;
+      margin: 0 auto;
+      max-width: 1500px;
+      left: 0; }
   .header__text::before {
     content: " ";
     position: absolute;
     background-color: white;
     border-radius: 2px;
-    top: 49px;
+    top: -20px;
     height: 2px;
     width: 35px; }
   .header__call {
@@ -123,9 +128,8 @@ h1 {
     display: flex;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .header__call-item {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -199,15 +203,16 @@ h1 {
     line-height: 40px;
     margin-top: -65px;
     letter-spacing: -1.5px;
-    left: 50px;
-    -webkit-transition: 1s left;
-    transition: 1s left; }
+    left: 50px; }
+    .header__text-box {
+      -webkit-transition: 1s left;
+      transition: 1s left; }
   .header__text::before {
     content: " ";
     position: absolute;
     background-color: white;
     border-radius: 2px;
-    top: 30px;
+    top: -20px;
     height: 2px;
     width: 35px; }
   .header__logo {
@@ -259,7 +264,7 @@ h1 {
 #check:checked ~ .header {
   background: #0075ff; }
 
-#check:checked ~ .header__text {
+#check:checked ~ .header__text-box {
   left: -500px; }
 
 #check:checked ~ .nav-mini {
@@ -347,12 +352,17 @@ h1 {
     color: white;
     margin-top: -65px;
     letter-spacing: -1.5px; }
+    .header__text-box {
+      position: relative;
+      margin: 0 auto;
+      max-width: 1500px;
+      left: 0; }
   .header__text::before {
     content: " ";
     position: absolute;
     background-color: white;
     border-radius: 2px;
-    top: 49px;
+    top: -20px;
     height: 2px;
     width: 35px; }
   .header__call {
@@ -361,9 +371,8 @@ h1 {
     display: flex;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .header__call-item {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -437,15 +446,16 @@ h1 {
     line-height: 40px;
     margin-top: -65px;
     letter-spacing: -1.5px;
-    left: 50px;
-    -webkit-transition: 1s left;
-    transition: 1s left; }
+    left: 50px; }
+    .header__text-box {
+      -webkit-transition: 1s left;
+      transition: 1s left; }
   .header__text::before {
     content: " ";
     position: absolute;
     background-color: white;
     border-radius: 2px;
-    top: 30px;
+    top: -20px;
     height: 2px;
     width: 35px; }
   .header__logo {
