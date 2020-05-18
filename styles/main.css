@@ -570,7 +570,8 @@ h1 {
     color: #3e3e3e;
     margin: 16px 0 0;
     -ms-flex-item-align: end;
-        align-self: flex-end; }
+        align-self: flex-end;
+    text-align: left; }
   .lure__highlight {
     color: #0075ff;
     font-weight: bold; }
@@ -578,8 +579,20 @@ h1 {
 @media only screen and (max-width: 920px) {
   .lure {
     padding: 64px 20px; }
+    .lure__easy-box {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
     .lure__title {
-      padding: 0 0 48px; } }
+      padding: 0 0 48px;
+      text-align: center; } }
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -851,6 +864,10 @@ h1 {
   .fback__report {
     max-width: 420px;
     min-width: 190px; }
+    .fback__report--mini {
+      max-width: 150px;
+      min-width: 100px;
+      margin: 0 50px 0 0; }
   .fback__mini-tittle {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -882,8 +899,13 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column; }
     .fback__report {
-      max-width: 600px;
+      max-width: 100%;
+      text-align: center;
       margin: 0; }
+      .fback__report--mini {
+        max-width: 100%;
+        min-width: 100px;
+        margin: 0 0 50px; }
     .fback__mini {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
