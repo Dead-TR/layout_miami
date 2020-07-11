@@ -49,7 +49,9 @@
   &__form-text {
     @include fonts-style(normal, 14px, 14px, $c_min_tittle );
     height: 144px;
-    max-width: 420px;
+    max-width: 100%;
+    resize: vertical;
+    max-height: 500px;
 
     &::placeholder {
       @include fonts-style(normal, 14px, 14px, #B9C1CE );
