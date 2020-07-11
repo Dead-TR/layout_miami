@@ -674,7 +674,9 @@ h1 {
   line-height: 14px;
   color: #3e3e3e;
   height: 144px;
-  max-width: 420px; }
+  max-width: 100%;
+  resize: vertical;
+  max-height: 500px; }
   .contact__form-text::-webkit-input-placeholder {
     font-weight: normal;
     font-size: 14px;
