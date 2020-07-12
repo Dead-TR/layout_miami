@@ -5,7 +5,7 @@ const contactForm = document.querySelector('.contact__form');
 
 function clean(evnt) {
   evnt.preventDefault();
-  document.location.href = '/';
+  document.location.href = './';
 }
 
 consultationForm.addEventListener('submit', clean);

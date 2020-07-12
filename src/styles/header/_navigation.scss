@@ -32,5 +32,6 @@
   &--desktop {
     justify-content: space-between;
     @include fonts-style(500, 16px, 16px, $head_text_color);
+    margin: 40px 90px;
   }
 }
