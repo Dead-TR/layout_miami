@@ -469,32 +469,38 @@ select:-webkit-autofill:focus {
   font-size: 14px;
   line-height: 14px;
   color: #3e3e3e;
-  height: 48px; }
+  height: 48px;
+  font-family: Roboto, Arial, Helvetica, sans-serif; }
   .consultation__form-item::-webkit-input-placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #B9C1CE; }
+    color: #B9C1CE;
+    font-family: Roboto, Arial, Helvetica, sans-serif; }
   .consultation__form-item::-moz-placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #B9C1CE; }
+    color: #B9C1CE;
+    font-family: Roboto, Arial, Helvetica, sans-serif; }
   .consultation__form-item:-ms-input-placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #B9C1CE; }
+    color: #B9C1CE;
+    font-family: Roboto, Arial, Helvetica, sans-serif; }
   .consultation__form-item::-ms-input-placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #B9C1CE; }
+    color: #B9C1CE;
+    font-family: Roboto, Arial, Helvetica, sans-serif; }
   .consultation__form-item::placeholder {
     font-weight: normal;
     font-size: 14px;
     line-height: 14px;
-    color: #B9C1CE; }
+    color: #B9C1CE;
+    font-family: Roboto, Arial, Helvetica, sans-serif; }
 
 .consultation__button {
   color: #fff;
@@ -657,7 +663,8 @@ select:-webkit-autofill:focus {
   font-size: 14px;
   line-height: 14px;
   color: #3e3e3e;
-  height: 48px; }
+  height: 48px;
+  font-family: Roboto, Arial, Helvetica, sans-serif; }
   .contact__form-item::-webkit-input-placeholder {
     font-weight: normal;
     font-size: 14px;
@@ -692,7 +699,8 @@ select:-webkit-autofill:focus {
   height: 144px;
   max-width: 100%;
   resize: vertical;
-  max-height: 500px; }
+  max-height: 500px;
+  font-family: Roboto, Arial, Helvetica, sans-serif; }
   .contact__form-text::-webkit-input-placeholder {
     font-weight: normal;
     font-size: 14px;
