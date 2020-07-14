@@ -40,6 +40,7 @@
   &__form-item {
     @include fonts-style(normal, 14px, 14px, $c_min_tittle );
     height: 48px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     
     &::placeholder {
       @include fonts-style(normal, 14px, 14px, #B9C1CE );
@@ -52,6 +53,7 @@
     max-width: 100%;
     resize: vertical;
     max-height: 500px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 
     &::placeholder {
       @include fonts-style(normal, 14px, 14px, #B9C1CE );
